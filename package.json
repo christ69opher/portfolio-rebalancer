@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-rebalancer",
+  "version": "1.0.1",
+  "description": "Automates crypto portfolio rebalancing based on dynamic market conditions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christ69opher/portfolio-rebalancer"
+  },
+  "author": "christ69opher",
+  "license": "MIT",
+  "dependencies": {
+    "bear-guard-finance": "1.0.0",
+    "yield-maximizer": "1.0.0",
+    "ethers": "^5.4.0",
+    "dotenv": "^8.2.0",
+    "axios": "^0.21.1",
+    "web3": "^1.3.5"
+  }
+}
